@@ -1,0 +1,57 @@
+O programa está separado em módulos:
+    main: roda o programa, chama comando de voz ou terminal
+    input: funcao do terminal ou entrada de voz
+    answer - pega pergunta do usuario e integra a uma funcao 
+    arduino - faz a conecação com o arduino e coloca suas funcoes
+    funcoes - funcoes adicionais para respostas do jarvis
+    openia - integramento com api da OpenIA
+    voice - tranforma texto em voz
+
+Bibliotecas:
+    Conectar com Arduino:
+        pyfirmata
+        time - (delay)
+        *Mudar arquivo C:\Users\nome-user\Documents\nome-project\nome-venv\Lib\site-packages\pyfirmata\pyfirmata.py*
+            Mudar de:
+                len_args = len(inspect.getargspec(func)[0])
+            Para:
+                 len_args = len(inspect.getfullargspec(func)[0])
+            
+            Mudar de:
+                len_args = len(inspect.getargspec(func)[0])
+            Para:
+                 len_args = len(signature.getargspec(func)[0])
+
+                 
+
+    Reconhecimento de voz: (Google) (Foi trocado pelo REconhecimento da Microsoft)
+        speech_recognition
+
+    Reconhecimento de voz: (Microsoft) (Foi trocado pelo REconhecimento da Microsoft)
+        azure.cognitiveservices.speech
+
+    Gerador de voz: (Google)
+        pyttsx3
+
+    ChatBot:
+        chatterbot
+
+    Criador de Imagens (DALL-E) KeyOpenIA
+        instalar Pillow
+
+
+Ambiente Virtual:
+    nome: Virtual
+    Como Criar: 
+        python3 -m venv nome_do_ambiente
+    Como abrir:
+        nome_do_ambiente\Scripts\activate.bat
+        ou
+        Virtual\Scripts\activate.ps1
+    Como fechar:
+        deactivate
+
+
+
+KeyOpenIA
+    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
