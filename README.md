@@ -1,7 +1,8 @@
-# Video completo
-<video width="100%" controls>
+# Funcionamento
+### <a href="https://photos.app.goo.gl/9JVPzG6hJBtV5s4v5">Vídeo completo</a>
+<!-- <video width="100%" controls>
   <source src="video/video.mp4" type="video/mp4">
-</video>
+</video> -->
 
 # Braço mecanico com arduino
 - API ChatGPT
